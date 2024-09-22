@@ -1,4 +1,4 @@
-## Hi there Im Harim👋
+# My Progect Plan (Level 1 Heading)
 
 <!--
 **ImHarim/ImHarim** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
