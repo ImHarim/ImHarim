@@ -35,7 +35,7 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 
 ---
 
-## Shell Commands
+# Shell Commands
 
 pwd: shows the current path in a hierarchical directory
 cd: change directory  
@@ -55,7 +55,17 @@ ls: list files and directories
   /[directoryname] : absolute path  
   ./[directoryname] : relativep ath  
   ../[directoryname] : relative path
-### TIPS
 
-Autocompletion : Press "tab" key
-Past commadns : Press“uparrow”key
+### Manipulation
+ ***Warning*** These commands may delete or overwrite your files and directories! 
+ cp : copy files and directories
+  cp ***file 1*** ***file 2*** : Copies the cotents of ***file 1*** into ***file 2***. If ***file 2*** does not exist, it is created. 
+  '' -i ***file 1*** ***file 2*** : Like above, but Prompted before overwrite. 
+  '' ***file 1*** ***dir 1*** : Copy the contents of ***file 1*** inside of direcroty ***dir 1***.
+   
+
+ ### TIPS
+
+ Autocompletion : Press "tab" key 
+ Past commands : Press“uparrow”key
+ clear : clear the terminal window (not delete)
