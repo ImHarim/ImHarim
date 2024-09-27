@@ -40,7 +40,8 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 pwd: shows the current path in a hierarchical directory
 cd: change directory  
 ls: list files and directories
-  ***ls can attach some arguments 
+  ***ls*** can attach some arguments 
+   
   -l : show detailed information (longformat)  
   -lh same as above, but size in units
 
