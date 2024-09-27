@@ -17,14 +17,16 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 
 ---
 ## CLI (Command Line Interface)vs.GUI (Graphical User Interface)
-**CLI**
+####CLI
+
 Have to remember commands  
 Keyboards, mostly  
 Relatively fast  
 Scripts enable automation and records  
 Basic environment for developers
 
-**GUI**
+####GUI
+
 EasytouseandIntuitive  
 Mouse mostly Some + keyboard shorcuts  
 Relatively slow  
