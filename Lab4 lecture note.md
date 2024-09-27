@@ -65,6 +65,15 @@ ls: list files and directories
   '' -i ***file 1*** ***file 2*** : Like above, but Prompted before overwrite. 
   
   '' ***file 1*** ***dir 1*** : Copy the contents of ***file 1*** inside of direcroty ***dir 1***.
+  '' -R ***dir 1*** ***dir 2*** : Copies the cotents of ***dir 1*** into ***dir 2***. If ***dir 2*** does not exist, it is created. Otherwise, it creates a directory named ***dir 1*** kwithin directory ***dir 2***.
+  
+  mv : move files and directories or rename them
+  
+  rm: delete files and directories
+
+  mkdir: make a new directory
+
+  $ exit : exiting terminal
    
 
  ### TIPS
