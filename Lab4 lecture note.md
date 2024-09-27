@@ -19,19 +19,33 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 ## CLI (Command Line Interface)vs.GUI (Graphical User Interface)
 #### CLI
 
-Have to remember commands  
-Keyboards, mostly  
-Relatively fast  
-Scripts enable automation and records  
-Basic environment for developers
+-Have to remember commands  
+-Keyboards, mostly  
+-Relatively fast  
+-Scripts enable automation and records  
+-Basic environment for developers
 
 #### GUI
 
-EasytouseandIntuitive  
-Mouse mostly Some + keyboard shorcuts  
-Relatively slow  
-Manual labors required for repetitive tasks  
-For daily users
+-EasytouseandIntuitive  
+-Mouse mostly Some + keyboard shorcuts  
+-Relatively slow  
+-Manual labors required for repetitive tasks  
+-For daily users
 
+---
 
+### Shell Commands
 
+pwd: shows the current path in a hierarchical directory
+cd: change directory  
+ls: list files and directories
+
+  #### arguments
+    /root  
+    .currentdirectory  
+    ..upper-leveldirectory  
+    ~homeofcurrentuser  
+    /[directoryname]:absolutepath  
+    .//[directoryname]:relativepath  
+    ..//[directoryname]:relativepath
