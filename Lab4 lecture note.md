@@ -46,7 +46,7 @@ ls: list files and directories
   -l : show detailed information (longformat)  
   -lh same as above, but size in units
 
- #### arguments
+ ### arguments
   
   / : root  
   . : currentdirectory  
@@ -55,3 +55,7 @@ ls: list files and directories
   /[directoryname] : absolute path  
   ./[directoryname] : relativep ath  
   ../[directoryname] : relative path
+### TIPS
+
+Autocompletion : Press "tab" key
+Past commadns : Press“uparrow”key
