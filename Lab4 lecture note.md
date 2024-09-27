@@ -58,5 +58,4 @@ ls: list files and directories
 ### TIPS
 
 Autocompletion : Press "tab" key
-
 Past commadns : Press“uparrow”key
