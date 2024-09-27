@@ -35,7 +35,7 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 
 ---
 
-### Shell Commands
+## Shell Commands
 
 pwd: shows the current path in a hierarchical directory
 cd: change directory  
@@ -58,4 +58,5 @@ ls: list files and directories
 ### TIPS
 
 Autocompletion : Press "tab" key
+
 Past commadns : Press“uparrow”key
