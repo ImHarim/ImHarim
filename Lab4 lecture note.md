@@ -40,12 +40,16 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 pwd: shows the current path in a hierarchical directory
 cd: change directory  
 ls: list files and directories
+  ***ls can attach some arguments 
+  -l : show detailed information (longformat)  
+  -lh same as above, but size in units
 
-  #### arguments
-    /root  
-    .currentdirectory  
-    ..upper-leveldirectory  
-    ~homeofcurrentuser  
-    /[directoryname]:absolutepath  
-    .//[directoryname]:relativepath  
-    ..//[directoryname]:relativepath
+ #### arguments
+  
+  / : root  
+  . : currentdirectory  
+  .. : upper-leveldirectory  
+  ~ = homeofcurrentuser  
+  /[directoryname] : absolute path  
+  ./[directoryname] : relativep ath  
+  ../[directoryname] : relative path
