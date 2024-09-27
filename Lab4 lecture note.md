@@ -79,5 +79,7 @@ ls: list files and directories
  ### TIPS
 
  Autocompletion : Press "tab" key 
+
  Past commands : Press“uparrow”key
+ 
  clear : clear the terminal window (not delete)
