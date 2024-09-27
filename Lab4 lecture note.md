@@ -16,3 +16,20 @@ Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  User
 -Runs on CLI(Command Line Interface),but many distributions support GUIs as well
 
 ---
+## CLI (Command Line Interface)vs.GUI (Graphical User Interface)
+**CLI**
+Have to remember commands  
+Keyboards, mostly  
+Relatively fast  
+Scripts enable automation and records  
+Basic environment for developers
+
+**GUI**
+EasytouseandIntuitive  
+Mouse mostly Some + keyboard shorcuts  
+Relatively slow  
+Manual labors required for repetitive tasks  
+For daily users
+
+
+
