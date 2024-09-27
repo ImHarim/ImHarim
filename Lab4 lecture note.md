@@ -1,5 +1,10 @@
 # Open Source SW
 
+### Kernel and Shell
+
+Kernel:Core of OS that controls and communicates with hardware resource
+Shell:Inter face that allows users to communicate with kernel:bash,zsh,…  Users runs applications and give commands through shell
+
 ### Linux
 
 -Open-source Unix-like operating systems and kernels, first released by Linus Torvalds in 1991  
@@ -9,3 +14,5 @@
 -Most widely-used platform for open source software development  
 -Secure and stable  
 -Runs on CLI(Command Line Interface),but many distributions support GUIs as well
+
+---
