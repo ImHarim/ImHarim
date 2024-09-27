@@ -59,8 +59,11 @@ ls: list files and directories
 ### Manipulation
  ***Warning*** These commands may delete or overwrite your files and directories! 
  cp : copy files and directories
+  
   cp ***file 1*** ***file 2*** : Copies the cotents of ***file 1*** into ***file 2***. If ***file 2*** does not exist, it is created. 
+  
   '' -i ***file 1*** ***file 2*** : Like above, but Prompted before overwrite. 
+  
   '' ***file 1*** ***dir 1*** : Copy the contents of ***file 1*** inside of direcroty ***dir 1***.
    
 
