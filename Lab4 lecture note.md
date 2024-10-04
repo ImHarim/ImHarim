@@ -85,10 +85,12 @@ ls: list files and directories
  clear : clear the terminal window (not delete)
 
 ---
-## Standdard Output
+## Standard Output
  - ***>*** & ***cat*** : '>' is a redirect output command to create and save the output in a file, 'cat' displays the content of a text file.
  - ***>>*** : Appends output to an extisting file or create and write to a new file if it doesn't exist.
  - ***<*** : By default, standard input is keyboard. but redirect input from a file using '<', You can mix '<' & '>'.
+ - ***|*** (pipelines) : feeds output of previous command to input of next command. EX. command 1 | command 2 = output command 2 using command 1.
+ - ***echo*** : reply all sentence behind itself. but ***echo ***/**** means
 
 
 
