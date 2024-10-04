@@ -91,12 +91,55 @@ ls: list files and directories
  - **<** : By default, standard input is keyboard. but redirect input from a file using '<', You can mix '<' & '>'.
  - **|** (pipelines) : feeds output of previous command to input of next command. EX. command 1 | command 2 = output command 2 using command 1.
  - **echo** : reply all sentence behind itself. but 'echo *' means output all files in directory where we current working. 'echo ~' mean showing user's home directory.
- - **\** (backslash) : ignore line change you can keep write the command ignore lines after using '\' (when command seems to be longer than usual).
+ - **\\** (backslash) : ignore line change you can keep write the command ignore lines after using '\' (when command seems to be longer than usual).
 
 ---
 ## Permissions
- Linux is a multi-user system. File and directories have a permission asigned differently
+ Linux is a multi-user system. File and directories have a permission asigned differently.  
   -<u>rwx</u>rwxrwx : r- read, w- write, x- execute. fore 'rwx' is higher executor, it divided owner / group/ others. EX. -rw-rw-r--
+
+ **chmod** : changes permissions,  
+  "EX. folder1 $ chmod 600 README.MD"   
+```sh
+ rwx rwx rwx = 111 111 111
+ rw- rw- rw- = 110 110 110
+ rwx --- --- = 111 000 000
+
+ and so on...
+
+ rwx = 111 in binary = 7
+```
+ 
+ **Superuser** : A superuser has all system administation authority. enter 'sudo' before command if you are a superuser. 'sudo -i' is before you type 'exit', you are still superuser (not recommended).
+
+ ## curl
+
+- fetching, uploading, and managing dat aover the internet curl [options][URL]
+
+  ```sh
+  $ curl -o horse.jpg https://opencv-tutorial.readthedocs.io/en/latest/_images/horse.jpg
+
+  $ curl -o https://opencv-tutorial.readthedocs.io/en/latest/_images/horse.jpg
+  ```
+
+ ## grep
+
+- grep is Global Regular Expression Print
+- Purpose is serching text within files.
+- Command options
+  - `'-i'`: Case-insensitive search
+  - `'-v'`: Invert the match
+  - `'-n'`: Display line numbers along with matching lines
+  - `'-r'`: Recursive search
+- By using 'grep', user can use powerful regular expressions for more complex searches.
+  - `'*'`: Matches any character ('.') zero or more times(`'*'`)
+  - `'\d'`: Matches any digit
+  - `'[abc]'`: Matches any single character within the brackets
+  - `'^'`: Matches the beginning of a line
+  - `'$'`: Matches the end of a line
+
+ 
+ 
   
 
 
