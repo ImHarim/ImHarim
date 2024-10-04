@@ -83,3 +83,14 @@ ls: list files and directories
  Past commands : Press“uparrow”key
  
  clear : clear the terminal window (not delete)
+
+---
+## Standdard Output
+ - ***>*** & ***cat*** : '>' is a redirect output command to create and save the output in a file, 'cat' displays the content of a text file.
+ - ***>>*** : Appends output to an extisting file or create and write to a new file if it doesn't exist.
+ - ***<*** : By default, standard input is keyboard. but redirect input from a file using '<', You can mix '<' & '>'.
+
+
+
+
+ 
