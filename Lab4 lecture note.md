@@ -86,11 +86,18 @@ ls: list files and directories
 
 ---
 ## Standard Output
- - ***>*** & ***cat*** : '>' is a redirect output command to create and save the output in a file, 'cat' displays the content of a text file.
- - ***>>*** : Appends output to an extisting file or create and write to a new file if it doesn't exist.
- - ***<*** : By default, standard input is keyboard. but redirect input from a file using '<', You can mix '<' & '>'.
- - ***|*** (pipelines) : feeds output of previous command to input of next command. EX. command 1 | command 2 = output command 2 using command 1.
- - ***echo*** : reply all sentence behind itself. but ***echo ***/**** means
+ - **>** & ***cat*** : '>' is a redirect output command to create and save the output in a file, 'cat' displays the content of a text file.
+ - **>>** : Appends output to an extisting file or create and write to a new file if it doesn't exist.
+ - **<** : By default, standard input is keyboard. but redirect input from a file using '<', You can mix '<' & '>'.
+ - **|** (pipelines) : feeds output of previous command to input of next command. EX. command 1 | command 2 = output command 2 using command 1.
+ - **echo** : reply all sentence behind itself. but 'echo *' means output all files in directory where we current working. 'echo ~' mean showing user's home directory.
+ - **\** (backslash) : ignore line change you can keep write the command ignore lines after using '\' (when command seems to be longer than usual).
+
+---
+## Permissions
+ Linux is a multi-user system. File and directories have a permission aggigned differently
+  -<u>rwx</u>rwxrwx : r- read, w- write, x- execute. fore 'rwx' is higher executor, it divided owner / group/ others. EX. -rw-rw-r--
+  
 
 
 
