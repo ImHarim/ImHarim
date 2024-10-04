@@ -96,7 +96,7 @@ ls: list files and directories
 ---
 ## Permissions
  Linux is a multi-user system. File and directories have a permission asigned differently
-   -<u>rwx</u>rwxrwx : r- read, w- write, x- execute. fore 'rwx' is higher executor, it divided owner / group/ others. EX. -rw-rw-r--
+  -<u>rwx</u>rwxrwx : r- read, w- write, x- execute. fore 'rwx' is higher executor, it divided owner / group/ others. EX. -rw-rw-r--
   
 
 
