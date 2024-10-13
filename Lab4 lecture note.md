@@ -138,7 +138,28 @@ ls: list files and directories
   - `'^'`: Matches the beginning of a line
   - `'$'`: Matches the end of a line
 
+## Git
+  It's essential to use a version control system for software development
+
+  Three States in Git
+   - Modified (stage Fixes)
+   - Staged (commit)
+   - Committed (checkout the project)
  
+ ### commands
+ ```
+  $ git init : make new repository this workstation wanna see hidden files, use " $ ls -lha "
+  $ git status : checking repositories status
+  $ git add [file_name] : add file_name in stage area
+  $ git add .  : handle to stage area all files from working area
+  $ git rm --cached[file_name] : unstage the file (그냥 rm을 사용하면 파일을 제거하지만 git rm을 이용하면 스테이지에서 캐시를 지우고 언스테이지드 시킴)
+  $ "ignore" : ignore files ( ~~ .a : ignore all .a files)
+  do track lib.a, even though you're ignoring .a files above : lib.a
+  only ignore the TODO file in the current direcrtory, not skubdir/TODO : /TODO
+  ignore doc/notes.txt, but not doc/server/arch.txt : doc/*.txt
+  ignore all .pfd files in the doc/ directory and any of its subdirectories : doc/**/*.pdf
+  $ git commit -m : commit message
+ ```
  
   
 
