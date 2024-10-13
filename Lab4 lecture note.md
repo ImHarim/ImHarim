@@ -114,7 +114,7 @@ ls: list files and directories
 
  ## curl
 
-- fetching, uploading, and managing dat aover the internet curl [options][URL]
+- fetching, uploading, and managing data over the internet curl [options][URL]
 
   ```sh
   $ curl -o horse.jpg https://opencv-tutorial.readthedocs.io/en/latest/_images/horse.jpg
