@@ -13,5 +13,26 @@
 
   - Extended Euclid (very important!)
 
-    
+
+### RSA algorithm
+
+  - Ciphertext: The encrypted, unreadable message
+  - Encryption: Converting plaintext to ciphertext
+  - Decryption: Converting ciphertext back to plaintext
+
+Turing'code  
+  C = M * e (Mod n)  
+  decryption: Multiply the multiplicative inverse d of e
+  M * e * d (Mode n)
+
+  우리가 암호문과 매세지를 알고있을 때,  
+  j, inverse of M  
+  j * M * e (Mod n) = e (Mod n)
+
+  #### Modular exponentiation (지수) 
+  a^b (mod n), a >= 0, b >= 0, n> 0
+
+  ##### Euler's phi function  
+   phi(n) = the number of positive integers
+  
     
