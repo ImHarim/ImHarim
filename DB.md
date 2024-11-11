@@ -42,10 +42,29 @@ Accesstime:the time it takes from when a read or write request is issued to when
 - Consists of seek time and latency time  
 
 Seektime : the time it takes to reposition the arm over the correct track
-- 4~10 milliseconds on typical disks  
+- 4~10 milliseconds on typical disks
 
 Rotational latency time : the time it takes for the sector to be accessed to appearunder the head  
 - 4~11 milliseconds on typical disks (5400~15000rpm)
 
 
+### quary processing   
+  primay key가 index로 활용된다. 
+  Dense index files와 sparse index files. dense는 모든 primary key를 가지고 있어서 search 할때의 시간은 빠르지만 index의 공간을 많이 차지한다
+  그러나 sparse index files는 몇몇개의 search key값을 가지고 key보다 큰가 작은가를 비교하면서 서칭을 한다. index의 공간은 적게 먹지만 검색속도는 조금 느리다.
+
+  Multilevel index: primary index가 너무 커스 memory에 들어가지 않을때 접속이 힘들어질 수 있다. 그래서 outer와 inner level로 index를 나눌 수 있는데
+  outer의 커다란 level에서 inner의 작은 index의 위치를 알려주는 것이다
+
+  #### Query optimization
+  Amongst all equivalent evaluation plans, choose the one lowest cost  
+  Query cost means elapsed time for answering a query.  
+
+  Selection Operation  
+      
+  - File scan: lowest level operator to access data  
+  -  
+      
+     
+  
 
