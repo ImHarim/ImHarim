@@ -63,8 +63,17 @@ Rotational latency time : the time it takes for the sector to be accessed to app
   Selection Operation  
       
   - File scan: lowest level operator to access data  
-  -  
+  -   
       
-     
+
+   3-way external merge sort  
+   
+    3 way of input buffer   
+    1 way of output buffer
+    ex) in real, not (3,1) it might be (3000.1000)
+
+  p.52 블록계산횟수 시험에 나옴!!
+  
+    
   
 
