@@ -47,7 +47,7 @@ Turing'code
 
    #### RSA akgorithm  
        ```
-         1. 두 소수 p,q 선택, ㅜ = p*q 계산  
+         1. 두 소수 p,q 선택, n = p*q 계산  
          2. gcd(e,phi(n))을 만족하는 e 선택
          3. e*d = 1(mod phi(n))을 만족하는 d 찾기
          4. public key(e,n) private key(d,n)
@@ -56,6 +56,9 @@ Turing'code
     c = m^e(mod n)  
   decryption          
     m = c^d(mod n)
+
+
+  ### 
     
        
          
